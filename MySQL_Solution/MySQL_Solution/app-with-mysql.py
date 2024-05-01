@@ -7,11 +7,11 @@ from flaskext.mysql import MySQL
 app = Flask(__name__)
 
 # Configure mysql database
-app.config['MYSQL_DATABASE_HOST'] = 'osvaldo-17.cbanmzptkrzf.us-east-1.rds.amazonaws.com'
-app.config['MYSQL_DATABASE_USER'] = 'admin'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'Clarusway_1'
-app.config['MYSQL_DATABASE_DB'] = 'clarusway'
-app.config['MYSQL_DATABASE_PORT'] = 3306
+app.config['MYSQL_DATABASE_HOST'] = '****'
+app.config['MYSQL_DATABASE_USER'] = '****'
+app.config['MYSQL_DATABASE_PASSWORD'] = '****'
+app.config['MYSQL_DATABASE_DB'] = '****'
+app.config['MYSQL_DATABASE_PORT'] = ****
 mysql = MySQL()
 mysql.init_app(app)
 connection = mysql.connect()
